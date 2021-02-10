@@ -29,8 +29,15 @@ public class Principal {
 
 		// Sauda√ß√£o espec√≠fica para o nome lido.
 		System.out.printf("Ol√° %s!", nome);
-		
+
+		System.out.println();
 		// NOTA: implemetar a leitura de idade e exib√≠-la.
+		System.out.printf("%s, qual È a sua idade?", nome);
+		
+		Integer idade = in.nextInt();
+
+		System.out.println();
+		System.out.printf("%d! Puxa! Como vocÍ È jovem!", idade);
 
 		in.close();
 
