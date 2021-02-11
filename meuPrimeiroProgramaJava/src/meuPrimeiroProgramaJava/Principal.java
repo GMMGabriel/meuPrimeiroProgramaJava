@@ -37,7 +37,7 @@ public class Principal {
 		Integer idade = in.nextInt();
 
 		System.out.println();
-		System.out.printf("%d! Puxa! Como você é jovem!", idade);
+		System.out.printf("%d! Puxa! Como você é jovem!", idade); // Mostra a idade na tela junto a uma frase.
 
 		in.close();
 
